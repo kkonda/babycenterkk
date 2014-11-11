@@ -31,7 +31,6 @@ cookbook_file "/var/www/html/k2.jpg" do
   owner "root"
   group "root"
   mode 00644
-  action :create_if_missing
  end
 
 
