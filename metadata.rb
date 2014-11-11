@@ -1,3 +1,4 @@
+name "bcecho"
 maintainer       "BabyCenter, LLC"
 maintainer_email "noc@babycenter.com"
 license          "Apache 2.0"
