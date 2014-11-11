@@ -26,4 +26,12 @@ code <<-EOH
   not_if "grep -q BABYCENTER /etc/motd"
 end
 
+cookbook_file "/var/www/html/k2.jpg" do
+  source "k3.jpg"
+  owner "root"
+  group "root"
+  mode 00644
+  action :create_if_missing
+ end
+
 
